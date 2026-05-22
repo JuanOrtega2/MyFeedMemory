@@ -2,3 +2,20 @@
 .venv
 .docs
 .env
+.env.local
+
+# Data and tokens (sensitive)
+data/
+*.json
+
+# IDE and system files
+.vscode/
+.idea/
+*.pyc
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# Pre-commit
+.pre-commit-framework

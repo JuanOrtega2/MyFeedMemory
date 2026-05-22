@@ -2,3 +2,7 @@ uv
 pytest
 requests
 python-dotenv
+pre-commit
+black
+pylint
+flake8
